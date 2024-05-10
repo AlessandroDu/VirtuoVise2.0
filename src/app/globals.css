@@ -2,32 +2,66 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
+/* Main page design */
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: #1D1D1F;
+  display: flex;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.Phone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url("images/iphone.png");
+  height: 85vh;
+  width: calc(85vh / 2.041);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 32px;
+  box-shadow: 2.5px 5px 10px #e5e4e2;
+}
+
+.Screen {
+  position: relative;
+  height: 96.5%;
+  width: 90%;
+  border-radius: 23px;
+  /* background-color: #1D1D1F; */
+  background-color: #e5e4e2;
+  overflow-y: scroll;
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.screen::-webkit-scrollbar {
+  display: none;
+}
+
+.Camera {
+  display: flex;
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, 5%);
+  background-image: url("images/camera.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 10%;
+  width: 25%;
+  z-index: 100;
+}
+
+.Tab {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #23395d;
+  height: 65%;
+  width: 90%;
+  border-top-left-radius: 23px;
+  border-top-right-radius: 23px;
 }
