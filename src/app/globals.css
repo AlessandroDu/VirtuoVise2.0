@@ -65,3 +65,47 @@ body {
   border-top-left-radius: 23px;
   border-top-right-radius: 23px;
 }
+
+/* Journeys listing page design */
+.journeys-list-page {
+  display: grid;
+  grid-template-columns: 80%;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  row-gap: 2.5%;
+  position: absolute;
+  padding-top: 15%;
+  padding-bottom: 5%;
+  width: 100%;
+  height: 200%;
+  border-bottom-left-radius: 23px;
+  border-bottom-right-radius: 23px;
+  justify-content: center;
+}
+
+.journey-display {
+  border-radius: 10px;
+  box-shadow: 2px 4px 8px #1D1D1F;
+}
+
+.MorningMastery {
+  background-image: url("images/riseAndShineCover.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.journey-display .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0,0,0,0.4);
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  color: #e5e4e2;
+}
+
+.NotImplementedYet {
+  background-image: url("images/notImplementedYetCover.jpg");
+  background-size: cover;
+}
