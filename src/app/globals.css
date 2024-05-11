@@ -25,12 +25,17 @@ body {
   box-shadow: 2.5px 5px 10px #e5e4e2;
 }
 
+.phone-RiseAndShine {
+  box-shadow: 2.5px 5px 10px  #FFA500;
+  box-shadow: 2.5px 5px 10px #FFDAB9;
+  /* box-shadow: 2.5px 5px 10px #FF7F50; */
+}
+
 .Screen {
   position: relative;
   height: 96.5%;
   width: 90%;
   border-radius: 23px;
-  /* background-color: #1D1D1F; */
   background-color: #e5e4e2;
   overflow-y: scroll;
   -ms-overflow-style: none;  /* Internet Explorer 10+ */
@@ -55,15 +60,20 @@ body {
 }
 
 .Tab {
-  position: absolute;
+  position: relative;
+  top: 30%;
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
   background-color: #23395d;
-  height: 65%;
+  height: 235%;
   width: 90%;
   border-top-left-radius: 23px;
   border-top-right-radius: 23px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 7.5%;
 }
 
 /* Journeys listing page design */
@@ -119,4 +129,57 @@ body {
   left: 0;
   right: 0;
   border-radius: 10px;
+}
+
+/* RiseAndShine preview page */
+.preview-title {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: max-content;
+  font-family: 'Montserrat', sans-serif;
+  color: #1D1D1F;
+}
+
+.enroll-btn {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: small;
+  color: #FFDAB9;
+  background-color: #23395d;
+  border-radius: 6px;
+  text-decoration: underline;
+}
+.enroll-btn:hover {
+  box-shadow: 1px 2px 4px #23395d;
+}
+.btn-bottom {
+  bottom: 2.5%;
+  top: auto;
+  background-color: #e5e4e2;
+  color: #23395d;
+}
+.btn-bottom:hover {
+  box-shadow: 1px 2px 4px #e5e4e2;
+}
+
+.preview-headers {
+  width: max-content;
+  font-family: 'Montserrat', sans-serif;
+  color: #FFDAB9;
+  padding-bottom: 5%
+}
+
+.preview-text {
+  height: max-content;
+  font-size: 1.6vh;
+  color: #e5e4e2;
+  font-family: 'roboto', sans-serif;
+  padding-bottom: 10%;
 }
