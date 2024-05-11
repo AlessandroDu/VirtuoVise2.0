@@ -95,6 +95,7 @@ body {
 
 .journey-display .text {
   display: flex;
+  position: relative;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -108,4 +109,14 @@ body {
 .NotImplementedYet {
   background-image: url("images/notImplementedYetCover.jpg");
   background-size: cover;
+}
+
+.link-morningMastery {
+  display: flex;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 10px;
 }

@@ -1,5 +1,7 @@
 "use client"
 
+import Link from "next/link";
+
 export function JourneysListDisplay() {
 
 
@@ -9,6 +11,7 @@ export function JourneysListDisplay() {
                 <div className="text">
                     <header>Rise and Shine:</header>
                     <header>Morning Mastery</header>
+                    <Link className="link-morningMastery" href="/RiseAndShine"></Link>
                 </div>
             </div>
             <div className="journey-display NotImplementedYet">
