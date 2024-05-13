@@ -1,10 +1,10 @@
 "use client"
 
-export default function RiseAndShine() {
+export default function PreviewRiseAndShine() {
 
     return (
         <div className="Phone phone-RiseAndShine">
-            <div className="Screen">
+            <div className="Screen preview-screen-riseAndShine">
                 <div className="Camera"></div>
                 <header className="preview-title">Morning Mastery</header>
                 <button className="enroll-btn">Enroll</button>

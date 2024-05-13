@@ -11,7 +11,7 @@ export function JourneysListDisplay() {
                 <div className="text">
                     <header>Rise and Shine:</header>
                     <header>Morning Mastery</header>
-                    <Link className="link-morningMastery" href="/RiseAndShine"></Link>
+                    <Link className="link-morningMastery" href="/PreviewRiseAndShine"></Link>
                 </div>
             </div>
             <div className="journey-display NotImplementedYet">

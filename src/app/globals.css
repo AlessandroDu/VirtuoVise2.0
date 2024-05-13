@@ -26,9 +26,7 @@ body {
 }
 
 .phone-RiseAndShine {
-  box-shadow: 2.5px 5px 10px  #FFA500;
   box-shadow: 2.5px 5px 10px #FFDAB9;
-  /* box-shadow: 2.5px 5px 10px #FF7F50; */
 }
 
 .Screen {
@@ -44,6 +42,10 @@ body {
 
 .screen::-webkit-scrollbar {
   display: none;
+}
+
+.preview-screen-riseAndShine {
+  background-color: #FFDAB9;
 }
 
 .Camera {
