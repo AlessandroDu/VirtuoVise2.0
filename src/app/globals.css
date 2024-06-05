@@ -78,6 +78,10 @@ body {
   padding: 7.5%;
 }
 
+.checklist {
+  height: min-content;
+}
+
 /* Journeys listing page design */
 .journeys-list-page {
   display: grid;
@@ -184,4 +188,63 @@ body {
   color: #e5e4e2;
   font-family: 'roboto', sans-serif;
   padding-bottom: 10%;
+}
+
+/* Footer design */
+.footer {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  bottom: 1.5%;
+  height: 10%;
+  width: 90%;
+  background-color: #23395d;
+  border-bottom-left-radius: 23px;
+  border-bottom-right-radius: 23px;
+}
+
+/* Track design */
+.track {
+  display: grid;
+  grid-template-columns: 80%;
+  height: 90%;
+  justify-content: center;
+  align-items: center;
+}
+
+.openDailyCheckHeader {
+  display: flex;
+  background-color: #1D1D1F;
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2%;
+}
+
+.openDailyCheckBody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Statistics page design */
+.statistics {
+  height: 70%;
+}
+
+.statistics-text {
+  font-size: 2vh;
+}
+
+.statistics-header-overflow {
+  width: 100%;
+  display: inline;
+}
+
+/* info page design */
+.screen-info {
+  height: 125%;
 }

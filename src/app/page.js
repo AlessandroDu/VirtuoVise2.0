@@ -1,6 +1,5 @@
 "use client"
 
-import Image from "next/image";
 import { JourneysListDisplay } from "./components/JourneysListDisplay";
 
 export default function Home() {

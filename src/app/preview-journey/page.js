@@ -1,13 +1,13 @@
 "use client"
 
-export default function PreviewRiseAndShine() {
+export default function PreviewJourney() {
 
     return (
         <div className="Phone phone-RiseAndShine">
             <div className="Screen preview-screen-riseAndShine">
                 <div className="Camera"></div>
                 <header className="preview-title">Morning Mastery</header>
-                <button className="enroll-btn">Enroll</button>
+                <a href="http://localhost:3000/rise-and-shine"><button className="enroll-btn">Enroll</button></a>
                 <div className="Tab">
                     <header className="preview-headers">Description</header>
                     <p className="preview-text">
@@ -61,7 +61,7 @@ export default function PreviewRiseAndShine() {
                     <p className="preview-text">
                         3 Months
                     </p>
-                    <button className="enroll-btn btn-bottom">Enroll</button>
+                    <a href="http://localhost:3000/rise-and-shine"><button className="enroll-btn btn-bottom">Enroll</button></a>
                 </div>
             </div>
         </div>
